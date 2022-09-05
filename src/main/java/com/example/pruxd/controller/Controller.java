@@ -10,7 +10,7 @@ public class Controller {
     @RequestMapping("/")
     String hello() {
         int h = 0;
-        return "Hello World, Spring Boot!";
+        return "Hello World, Spring Boot2!";
     }
 
 }
