@@ -11,7 +11,7 @@ public class Controller {
     String hello() {
 
 
-        String s = "Hello World, Spring hey";
+        String s = "Hello World, Spring hey2";
         return s;
 
 
