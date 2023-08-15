@@ -10,5 +10,5 @@ public class PruxdApplication {
 		int g = 0;
 		SpringApplication.run(PruxdApplication.class, args);
 	}
-
+//
 }
