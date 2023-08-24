@@ -25,7 +25,7 @@ pipeline {
 
 		stage('Deploy') {
 			steps {
-			    bat "mvn jar:jar deploy:deploy"
+			    bat "mvn jar:jar clean deploy -Dmaven.test.skip=true"
 			}
 		}
 	}
